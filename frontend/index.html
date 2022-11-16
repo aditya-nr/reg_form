@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshni</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" method="post" class="form" id="form">
+        <div class="container active" id="p1">
+            <div class="header">
+                <h2>Basic Details</h2>
+            </div>
+            <div class="form" id="form">
+                <div class="form-control">
+                    <label for="nm">Name</label>
+                    <input type="text" name="nm" id="nm">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="phn">Mobile no</label>
+                    <input type="text" name="phn" id="phn">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="gender">Gender</label>
+                    <input type="text" name="gender" id="gender">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="religion">Religion</label>
+                    <input type="text" name="religion" id="religion">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <input type="button" value="next" class="btn" id="n1">
+            </div>
+        </div>
+        <div class="container" id="p2">
+            <div class="header">
+                <h2>Course Details</h2>
+            </div>
+            <div class="form" id="form">
+                <div class="form-control">
+                    <label for="dist">District </label>
+                    <select name="dist" id="dist">
+                        <option value="">Please select District</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Purulia">Purulia</option>
+                        <option value="Bankura">Bankura</option>
+                        <option value="Maldah">Maldah</option>
+                    </select>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="inst">Name of the Institution</label>
+                    <input type="text" name="inst" id="inst">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="course">Course Name</label>
+                    <input type="text" name="course" id="course">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="c_duration">Course Duration</label>
+                    <input type="text" name="c_duration" id="c_duration">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="date">Date of admission</label>
+                    <input type="date" name="date" id="date">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small>err msg</small>
+                </div>
+                <input type="submit" value="submit" class="btn">
+            </div>
+        </div>
+    </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
